@@ -1,0 +1,114 @@
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared sytle */
+
+.text-primary{
+    color: #F28F49;
+    
+}
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+  background-color: #FD6E0A;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  padding: 18px 35px;
+  border-radius: 5px;
+  border: none;
+   
+}
+/* header styes */
+.header{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #F9F9F9;
+    padding: 20px 0; */
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-title{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    color: black;
+    
+    
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* banner-style */
+.banner{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}  
+.banner-content{
+    max-width: 580px;
+    /* margin-top: 50px; */
+} 
+.banner-greetings{
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    
+    font-weight: bold;
+}
+.banner-text{
+    font-size: 18px;
+    color: #474747;
+    max-width: 600px;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto; 
+    
+}
+.banner-pic{
+    width: 580px;
+   
+    /* border-radius: 50%; */
+    /* margin-top: 50px;
+    margin-right: 200px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+}
