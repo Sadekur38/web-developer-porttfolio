@@ -7,9 +7,12 @@
     "wdth" 100;
 }
 /* shared sytle */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 
 .text-primary{
-    color: #F28F49;
+    color: #FD6E0A;
     
 }
 .dark-2{
@@ -24,6 +27,24 @@
   border-radius: 5px;
   border: none;
    
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    /* margin-bottom: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;  */
+}
+.section-text{
+    font-size: 18px;
+    color: #757575;
+    /* max-width: 600px;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;  */
 }
 /* header styes */
 .header{
@@ -45,13 +66,13 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0 200px;
 }
 .nav-title{
-    font-family: "Open Sans", sans-serif;
+    /* font-family: "Open Sans", sans-serif; */
     font-weight: 800;
     font-size: 45px;
-    color: black;
+    /* color: black; */
     
     
     
@@ -77,7 +98,7 @@ nav li a{
     display: flex;
     /* align-items: center; */
     justify-content: space-between;
-    margin: 0 35px 0 230px;
+    margin: 0 35px 0 200px;
 }  
 .banner-content{
     max-width: 580px;
@@ -93,7 +114,7 @@ nav li a{
     
     font-weight: bold;
 }
-.banner-text{
+/* .banner-text{
     font-size: 18px;
     color: #474747;
     max-width: 600px;
@@ -103,7 +124,7 @@ nav li a{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto; 
     
-}
+} */
 .banner-pic{
     width: 580px;
    
@@ -111,4 +132,41 @@ nav li a{
     /* margin-top: 50px;
     margin-right: 200px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+
+    
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.item-text{
+    font-weight: 600;
+}
+.item-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #181818;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    
+
+
+   
 }
